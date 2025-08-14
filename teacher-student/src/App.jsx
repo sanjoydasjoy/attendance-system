@@ -9,7 +9,13 @@ import ViewAttendance from './pages/ViewAttendance';
 import ViewCourses from './pages/ViewCourses';
 import AttendanceRecords from './pages/AttendanceRecords';
 
+// import { useEffect } from 'react';
+
 const App = () => {
+  // useEffect(() => {
+  //   console.log("App loaded");
+  // }, []);
+
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
